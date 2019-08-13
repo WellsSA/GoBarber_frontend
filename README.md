@@ -10,14 +10,15 @@ A idéia desta aplicação é fazer o controle de agendamentos para prestadores 
 
 ### ++ Dependencies
 
-+ `history` XXXXXX
-+ `prop-types` XXXXXX
++ `history` para permitir navegação de qualquer parte da aplicação
++ `prop-types` para validação de props
 + `react` XXXXXX
 + `react-dom` XXXXXX
-+ `react-router-dom` XXXXXX
++ `react-router-dom` para permitir a manipulação de rotas da aplicação
 + `react-scripts` XXXXXX
-+ `reactotron-react-js` XXXXXX
-+ `styled-components` XXXXXX
++ `reactotron-react-js` para logs detalhados da aplicação
++ `styled-components` para estilização da aplicação
++ `yup` para schema validation
 
 ### ++ DevDependencies
 
@@ -31,5 +32,5 @@ A idéia desta aplicação é fazer o controle de agendamentos para prestadores 
 + `eslint-plugin-react` XXXXX
 + `eslint-plugin-react-hooks` XXXXX
 + `prettier` XXXXX
-+ `customize-cra` XXXXX
-+ `react-app-rewired` XXXXX
++ `customize-cra` para customizar o create-react-app padrão e poder alterar a parte de rotas
++ `react-app-rewired` para executar a versão customizada do cra
